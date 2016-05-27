@@ -17,6 +17,7 @@ public class Crime {
 		mId = UUID.randomUUID();
 		mDate = new Date();
 	}
+	//重写toString方法，返回Crime标题
 	@Override
 	public String toString() {
 		return mTitle;
